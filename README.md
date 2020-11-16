@@ -3,9 +3,6 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 **!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto). !!** 
 
 Paradigmas:
- - Funcional
- - Logico
- - Concorrente
  - SMA
 
 **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: 2020.1_G1_Logico_ProjetoRoteirosAereos!!**
@@ -15,8 +12,8 @@ Paradigmas:
 # NomeDoProjeto
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 04<br>
+**Paradigma**: SMA<br>
 
 ## Alunos
 |Matrícula | Aluno |
@@ -25,7 +22,7 @@ Paradigmas:
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Projeto que irá representar uma colméia e suas abelhas
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
