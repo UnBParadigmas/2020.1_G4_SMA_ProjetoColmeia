@@ -1,15 +1,4 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto). !!** 
-
-Paradigmas:
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: 2020.1_G1_Logico_ProjetoRoteirosAereos!!**
- 
- (Apague essa seção)
-
-# NomeDoProjeto
+# Projeto Colmeia
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
 **Nro do Grupo**: 04<br>
@@ -18,8 +7,10 @@ Paradigmas:
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 17/0056155 | André Freitas |
+| 17/0013693 | João Gabriel Rossi |
+| 17/0113060 | Pedro Vítor de Salles Cella |
+| 17/0045269 | Sara Campos |
 
 ## Sobre 
 Projeto que irá representar uma colméia e suas abelhas
