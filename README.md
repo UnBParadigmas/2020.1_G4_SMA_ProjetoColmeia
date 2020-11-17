@@ -13,7 +13,7 @@
 | 17/0045269 | Sara Campos |
 
 ## Sobre 
-Projeto que irá representar uma colméia e suas abelhas
+Projeto que irá representar uma colméia e suas abelhas.
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
@@ -21,11 +21,28 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 ## Instalação 
 **Linguagens**: xxxxxx<br>
 **Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+
+[Framework Mesa](https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html)
+
+A instalação do framework é muito simples e rápida.
+É aconselhável que você cire um ambiente python, mas caso não queria não é necessário.
+
+instale o Mesa:
+`pip3 install mesa`
+Pronto, agora seu computador tem o mesa instalado.
+
+instale também as outras dependências python que utilizaremos:
+```
+pip install -r requirements.txt
+```
 
 ## Uso 
-Explique como usar seu projeto, caso haja algum passo a passo após o comando de execução.
+Nossa aplicação foi construída a partir do framework Mesa.
+Com ele instalado é necessário apenas rodar:
+```
+mesa runserver projetocolmeia
+```
+
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
