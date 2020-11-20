@@ -1,9 +1,8 @@
-
 from mesa import Model
 from mesa.space import MultiGrid
 from mesa.datacollection import DataCollector
 
-from colmeia.agents import WorkerBee, Death, HoneyComb
+from colmeia.agents import WorkerBee, Death, HoneyComb, QueenBee
 from colmeia.schedule import RandomActivationByBreed
 
 
@@ -15,7 +14,7 @@ class BeeHoney(Model):
     initial_bees = 100
     initial_deaths = 50
 
-    bee_reproduce = 0.04
+    bee_reproduce = QueenBee
     death_reproduce = 0.05
 
     death_gain_from_food = 20
@@ -24,10 +23,10 @@ class BeeHoney(Model):
     honey_regrowth_time = 30
     bee_gain_frrom_food = 4
 
-    verbose = True  # Print-monitoring
+    verbose = True  
 
     description = (
-        "A model for simulating death and bees (predator-prey) ecosystem modelling."
+        "Simulador do ecosistema de uma colmeia, representando produção de mel, nascimento e morte das abelhas"
     )
 
     def __init__(
@@ -36,7 +35,7 @@ class BeeHoney(Model):
         width=20,
         initial_bees=100,
         initial_deaths=50,
-        bee_reproduce=0.04,
+        # bee_reproduce=0.04,
         death_reproduce=0.05,
         death_gain_from_food=20,
         honey=True,
@@ -50,7 +49,7 @@ class BeeHoney(Model):
         self.width = width
         self.initial_bees = initial_bees
         self.initial_deaths = initial_deaths
-        self.bee_reproduce = bee_reproduce
+        # self.bee_reproduce = bee_reproduce
         self.death_reproduce = death_reproduce
         self.death_gain_from_food = death_gain_from_food
         self.honey = honey
@@ -61,7 +60,7 @@ class BeeHoney(Model):
         self.grid = MultiGrid(self.height, self.width, torus=True)
         self.datacollector = DataCollector(
             {
-                "Deaths": lambda m: m.schedule.get_breed_count(Death),
+                "Mortes": lambda m: m.schedule.get_breed_count(Death),
                 "Operarias": lambda m: m.schedule.get_breed_count(WorkerBee),
             }
         )
@@ -120,14 +119,14 @@ class BeeHoney(Model):
     def run_model(self, step_count=200):
 
         if self.verbose:
-            print("Initial number deaths: ",
+            print("Número inicial de mortes: ",
                   self.schedule.get_breed_count(Death))
-            print("Initial number bees: ", self.schedule.get_breed_count(WorkerBee))
+            print("Número inicial de mortes: ", self.schedule.get_breed_count(WorkerBee))
 
         for i in range(step_count):
             self.step()
 
         if self.verbose:
             print("")
-            print("Final number deaths: ", self.schedule.get_breed_count(Death))
-            print("Final number bees: ", self.schedule.get_breed_count(WorkerBee))
+            print("Número final de mortes: ", self.schedule.get_breed_count(Death))
+            print("Número final de abelhas: ", self.schedule.get_breed_count(WorkerBee))

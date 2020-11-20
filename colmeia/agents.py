@@ -1,5 +1,6 @@
 from mesa import Agent
 from colmeia.random_walk import RandomWalker
+from colmeia.schedule import RandomActivationByBreed
 
 
 class WorkerBee(RandomWalker):
@@ -100,3 +101,10 @@ class HoneyComb(Agent):
                 self.countdown = self.model.honey_regrowth_time
             else:
                 self.countdown -= 1
+
+class QueenBee(Agent):
+
+    def __init__(self, unique_id, model):
+
+        super().__init__(unique_id, model)
+        self.queenbee = 
