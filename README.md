@@ -13,7 +13,11 @@
 | 17/0045269 | Sara Campos |
 
 ## Sobre 
-Projeto que irá representar uma colméia e suas abelhas.
+Projeto que irá representar uma colméia e suas abelhas.<br>
+Existem os agentes Mel,Abelha e Morte.<br>
+A abelha precisa de mel para sobreviver e se reproduzir.<br>
+A morte precisa matar abelhas<br>
+O mel aparece aleatoriamente dentro da colmeia, e as abelhas precisam pegá-lo<br>
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
