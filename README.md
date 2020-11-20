@@ -20,13 +20,15 @@ A morte precisa matar abelhas.<br>
 O mel aparece aleatoriamente dentro da colmeia, e as abelhas precisam pegá-lo.<br>
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![Agentes](screenshots/colmeia3.png)
+
+![Executando no terminal](screenshots/colmeia2.png)
+
+![Representação final](screenshots/colmeia1.png)
 
 ## Instalação 
 **Linguagens**: Python<br>
 **Tecnologias**: Mesa<br>
-
-[Framework Mesa](https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html)
 
 A instalação do framework é muito simples e rápida.
 É aconselhável que você cire um ambiente python, mas caso não queria não é necessário.
@@ -45,10 +47,13 @@ mesa runserver
 
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
+
+https://youtu.be/Juv3K0hHdDY
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas a seguir.
 
 ## Fontes
-Este trabalho foi desenvolvido a aprtir do exemplo wolf_sheep do repsotório oficial do [Framework Mesa](https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html)
+Este trabalho foi desenvolvido a partir do exemplo wolf_sheep do repositório oficial do 
+
+[Framework Mesa](https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html)
