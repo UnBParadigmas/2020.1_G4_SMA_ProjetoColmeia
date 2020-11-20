@@ -2,7 +2,7 @@ from mesa import Model
 from mesa.space import MultiGrid
 from mesa.datacollection import DataCollector
 
-from colmeia.agents import WorkerBee, Death, HoneyComb, QueenBee
+from colmeia.agents import WorkerBee, Death, HoneyComb
 from colmeia.schedule import RandomActivationByBreed
 
 
@@ -14,7 +14,7 @@ class BeeHoney(Model):
     initial_bees = 100
     initial_deaths = 50
 
-    bee_reproduce = QueenBee
+    bee_reproduce = 0.04
     death_reproduce = 0.05
 
     death_gain_from_food = 20
@@ -35,7 +35,7 @@ class BeeHoney(Model):
         width=20,
         initial_bees=100,
         initial_deaths=50,
-        # bee_reproduce=0.04,
+        bee_reproduce=0.04,
         death_reproduce=0.05,
         death_gain_from_food=20,
         honey=True,
@@ -49,7 +49,7 @@ class BeeHoney(Model):
         self.width = width
         self.initial_bees = initial_bees
         self.initial_deaths = initial_deaths
-        # self.bee_reproduce = bee_reproduce
+        self.bee_reproduce = bee_reproduce
         self.death_reproduce = death_reproduce
         self.death_gain_from_food = death_gain_from_food
         self.honey = honey
