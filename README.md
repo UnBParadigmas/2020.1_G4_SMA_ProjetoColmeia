@@ -14,17 +14,17 @@
 
 ## Sobre 
 Projeto que irá representar uma colméia e suas abelhas.<br>
-Existem os agentes Mel,Abelha e Morte.<br>
+Existem os agentes Mel, Abelha e Morte.<br>
 A abelha precisa de mel para sobreviver e se reproduzir.<br>
-A morte precisa matar abelhas<br>
-O mel aparece aleatoriamente dentro da colmeia, e as abelhas precisam pegá-lo<br>
+A morte precisa matar abelhas.<br>
+O mel aparece aleatoriamente dentro da colmeia, e as abelhas precisam pegá-lo.<br>
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
+**Linguagens**: Python<br>
+**Tecnologias**: Mesa<br>
 
 [Framework Mesa](https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html)
 
