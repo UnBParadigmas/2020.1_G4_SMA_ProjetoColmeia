@@ -1,7 +1,7 @@
 from mesa import Agent
 from colmeia.random_walk import RandomWalker
 from colmeia.schedule import RandomActivationByBreed
-
+from random import random
 
 class WorkerBee(RandomWalker):
    
@@ -102,9 +102,9 @@ class HoneyComb(Agent):
             else:
                 self.countdown -= 1
 
-class QueenBee(Agent):
+# class QueenBee(Agent):
 
-    def __init__(self, unique_id, model):
+#     def __init__(self, unique_id, model):
 
-        super().__init__(unique_id, model)
-        self.queenbee = 
+#         super().__init__(unique_id, model)
+#         self.queenbee = random(0.04, 0.09)
