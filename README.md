@@ -31,16 +31,12 @@ instale o Mesa:
 `pip3 install mesa`
 Pronto, agora seu computador tem o mesa instalado.
 
-instale também as outras dependências python que utilizaremos:
-```
-pip install -r requirements.txt
-```
 
 ## Uso 
 Nossa aplicação foi construída a partir do framework Mesa.
-Com ele instalado é necessário apenas rodar:
+Com ele instalado é necessário apenas rodar dentro do diretório 2020.1_G4_SMA_ProjetoColmeia:
 ```
-mesa runserver projetocolmeia
+mesa runserver 
 ```
 
 
@@ -51,4 +47,4 @@ Adicione 1 ou mais vídeos com a execução do projeto.
 Quaisquer outras informações sobre seu projeto podem ser descritas a seguir.
 
 ## Fontes
-Caso utilize materiais de terceiros, referencie-os adequadamente.
+Este trabalho foi desenvolvido a aprtir do exemplo wolf_sheep do repsotório oficial do [Framework Mesa](https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html)
